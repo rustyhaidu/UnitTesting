@@ -36,6 +36,8 @@ public class CalculatorActivityTest extends ActivityInstrumentationTestCase2<Cal
         Assert.assertNotNull(getActivity().findViewById(R.id.screen));
     }
     @LargeTest
+    // TODO - CODE REVIEW - andrei | 9/10/15 - Why is this a LargeTest? You should read up on what Small/Medium/Large Tests mean.
+    // TODO - CODE REVIEW - andrei | 9/10/15 - Please use camelCasing in test methods as well.
     public void test_button_1() throws Exception {
 
         //EditText input = (EditText) getActivity().findViewById(R.id.digitInput);

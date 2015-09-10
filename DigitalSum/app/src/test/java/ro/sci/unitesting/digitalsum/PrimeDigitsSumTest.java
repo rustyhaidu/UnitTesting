@@ -20,6 +20,7 @@ public class PrimeDigitsSumTest {
 		primeDigitsSum = new PrimeDigitsSum();
 	}
 
+	// TODO - CODE REVIEW - andrei | 9/10/15 - Method names are not correct.
 	@Test(expected = PrimeDigitsSum.InvalidNumberException.class)
 	public void test_invalidNumber() throws Exception {
 		primeDigitsSum.calculateDigitsCum("12d");
